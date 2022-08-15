@@ -31,7 +31,7 @@ const Hero = () => {
                 </h3>
               </div>
 
-              <h6>
+              <h6 className="text-center md:text-left">
                 A dedicated web developer who is passionate about building
                 responsive, mobile-first web applications with modern front-end
                 technologies such as Vue and React.

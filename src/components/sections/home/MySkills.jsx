@@ -2,7 +2,7 @@ import React from "react";
 import SectionContainer from "../SectionContainer";
 import Skill from "./Skill";
 
-const Skills = ({ title, large, centered, subtitle, skills }) => {
+const MySkills = ({ title, large, centered, subtitle, skills }) => {
   return (
     <SectionContainer
       id="skills"
@@ -25,4 +25,4 @@ const Skills = ({ title, large, centered, subtitle, skills }) => {
   );
 };
 
-export default Skills;
+export default MySkills;

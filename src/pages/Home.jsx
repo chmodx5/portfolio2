@@ -7,7 +7,7 @@ import Services from "../components/sections/home/Services";
 import Contact from "../components/sections/home/Contact";
 
 const Home = () => {
-  const [skills, setSkills] = useState([
+  const [mySkills] = useState([
     {
       icon: "skills/html-logo.svg",
       title: "HTML5",
@@ -58,7 +58,7 @@ const Home = () => {
         subtitle="services"
         centered
       />
-      {/* <Skills title="skills" large subtitle="" centered skills={skills} /> */}
+      <Skills title="skills" large subtitle="" centered skills={mySkills} />
 
       <Portfolio
         title="featured projects"

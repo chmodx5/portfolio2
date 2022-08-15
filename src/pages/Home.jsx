@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Hero from "./../components/sections/home/Hero";
 import About from "./../components/sections/home/About";
 import Portfolio from "../components/sections/home/Portfolio";
-// import Skills from "./../components/sections/Home/Skills";
+import Skills from "./../components/sections/Home/Skills";
 import Services from "../components/sections/home/Services";
 import Contact from "../components/sections/home/Contact";
 

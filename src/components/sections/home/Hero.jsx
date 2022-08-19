@@ -22,12 +22,14 @@ const Hero = () => {
                     ></div>
                   ))}
                 </div>
-                <h6>Hello i'm</h6>
+                <h6 className="text-center md:text-left">Hello i'm</h6>
               </div>
 
               <div>
-                <h1 className="font-bold text-2xl">Onesmas Wanjala</h1>
-                <h3 className="font-semibold text-xl">
+                <h1 className="font-bold text-2xl text-center md:text-left">
+                  Onesmas Wanjala
+                </h1>
+                <h3 className="font-semibold text-xl text-center md:text-left">
                   A Full Stack Developer
                 </h3>
               </div>
@@ -37,14 +39,17 @@ const Hero = () => {
                 responsive, mobile-first web applications with modern front-end
                 technologies such as Vue and React.
               </h6>
-              <motion.Link
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                to="/portfolio"
-                className="btn-primary"
-              >
-                Discover More
-              </motion.Link>
+              <p className="text-center md:text-left">
+                {" "}
+                <Link
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  to="/portfolio"
+                  className="btn-primary "
+                >
+                  Discover More
+                </Link>
+              </p>
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 flex items-center justify-center">

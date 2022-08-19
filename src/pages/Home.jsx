@@ -53,7 +53,7 @@ const Home = () => {
         aboutLink="https://www.linkedin.com/in/onesmas-wanjala-10127b216/"
       />
       <Services
-        title="what im interested in"
+        title="what i'm interested in"
         large
         subtitle="services"
         centered

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -36,9 +37,14 @@ const Hero = () => {
                 responsive, mobile-first web applications with modern front-end
                 technologies such as Vue and React.
               </h6>
-              <Link to="/portfolio" className="btn-primary">
+              <motion.Link
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                to="/portfolio"
+                className="btn-primary"
+              >
                 Discover More
-              </Link>
+              </motion.Link>
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 flex items-center justify-center">

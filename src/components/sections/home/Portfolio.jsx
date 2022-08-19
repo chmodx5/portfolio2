@@ -10,53 +10,45 @@ function classNames(...classes) {
 
 const Portfolio = ({ title, large, centered, subtitle }) => {
   const [categories, setCategories] = useState({
-    branding: [
+    production: [
       {
         id: 1,
-        title: "Branding",
+        title: "Misicode",
         techs: ["vuejs", "tailwindcss", "reactjs", "nodejs", "expressjs"],
-        desc: "I am a Branding Designer who is passionate about creating beautiful and functional designs for the web and mobile.",
-        image: "https://source.unsplash.com/random/800x600/?design",
-        link: "https://www.behance.net/gallery/95979793/Branding",
-        github: "https://github.com",
+        desc: " This portfolio website was made for my client to showcase their work in a clean and professional manner which easy to navigate and showcases my client's work in a way that is sure to impress potential clients.",
+        image: "/portfolio/misicode.png",
+        link: "https://misicod-portfolio.vercel.app/",
+        github: "https://github.com/chmodx5/misicod_portfolio",
       },
-      {
-        id: 2,
-        title: "Web Design",
-        techs: ["vuejs", "tailwindcss", "reactjs", "nodejs", "expressjs"],
-        desc: "I am a Web Designer who is passionate about creating beautiful and functional designs for the web and mobile.",
-        image: "https://source.unsplash.com/random/800x600/?webdesign",
-        link: "https://www.behance.net/gallery/95979793/Branding",
-        github: "https://github.com",
-      },
+
       {
         id: 3,
-        title: "UI/UX Design",
+        title: "Matungulu medical",
         techs: ["vuejs", "tailwindcss", "reactjs", "nodejs", "expressjs"],
-        desc: "I am a UI/UX Designer who is passionate about creating beautiful and functional designs for the web and mobile.",
-        image: "https://source.unsplash.com/random/800x600/?uxdesign",
-        link: "https://www.behance.net/gallery/95979793/Branding",
-        github: "https://github.com",
-      },
-    ],
-    development: [
-      {
-        id: 3,
-        title: "Web Development",
-        techs: ["vuejs", "tailwindcss", "reactjs", "nodejs", "expressjs"],
-        desc: "I am a Web Developer who is passionate about creating beautiful and functional designs for the web and mobile.",
-        image: "https://source.unsplash.com/random/800x600/?webdevelopment",
-        link: "https://www.behance.net/gallery/95979793/Branding",
-        github: "https://github.com",
+        desc: "This website was made for my client (a hospital) to market their brand as a hospital and also simplify some of the hospitals primary challanges which was booking of appointments.",
+        image: "/portfolio/matungulu-medical.png",
+        link: "https://www.matungulumedical.co.ke/",
+        github: "https://github.com/chmodx5/matungulu",
       },
       {
         id: 4,
-        title: "Mobile Development",
+        title: "Knh-Error tool",
         techs: ["vuejs", "tailwindcss", "reactjs", "nodejs", "expressjs"],
-        desc: "I am a Mobile Developer who is passionate about creating beautiful and functional designs for the web and mobile.",
-        image: "https://source.unsplash.com/random/800x600/?mobiledevelopment",
-        link: "https://www.behance.net/gallery/95979793/Branding",
-        github: "https://github.com",
+        desc: "This one is a web application that helps the above mentioned hospital to simplify the process of reporting errors in their system and it also has a dashboard that shows the errors that are reported by the hospital and analytics.",
+        image: "/portfolio/knh-errortool.png",
+        link: "https://www.medical-error.knh.or.ke/",
+        github: "https://github.com/chmodx5/error-form",
+      },
+    ],
+    "side projects": [
+      {
+        id: 2,
+        title: "Koogle",
+        techs: ["vuejs", "tailwindcss", "reactjs", "nodejs", "expressjs"],
+        desc: "This one is actually my attempt at making something that looks similar to and works like google.com .",
+        image: "/portfolio/koogle.png",
+        link: "https://koogle.vercel.app/",
+        github: "https://github.com/chmodx5/koogle",
       },
     ],
   });
@@ -140,6 +132,7 @@ const Portfolio = ({ title, large, centered, subtitle }) => {
                         title={item.title}
                         img={item.image}
                         link={item.link}
+                        github={item.github}
                         desc={item.desc}
                       />
                     </li>

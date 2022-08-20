@@ -49,7 +49,7 @@ const Home = () => {
         large
         subtitle=""
         centered
-        about=" Hello, my name is Onesmas Wanjala, a web developer with a five yaer experience in building websites from scratch as well as working on existing websites. I am proficient in HTML, CSS, and JavaScript. I am also familiar with various web development frameworks such as Laravel, django, and Express. In addition to web development, I also have experience with graphic design and user experience. I am a creative and problem-solving individual who is always looking to learn new things. If you need a website built or updated, I would be more than happy to help. Thank you for taking the time to read about me."
+        about=" Hello, my name is Onesmas Wanjala, a web developer with a five year experience in building websites from scratch as well as working on existing websites. I am proficient in HTML, CSS, and JavaScript. I am also familiar with various web development frameworks such as Laravel, django, and Express. In addition to web development, I also have experience with graphic design and user experience. I am a creative and problem-solving individual who is always looking to learn new things. If you need a website built or updated, I would be more than happy to help. Thank you for taking the time to read about me."
         aboutLink="https://www.linkedin.com/in/onesmas-wanjala-10127b216/"
       />
       <Services
